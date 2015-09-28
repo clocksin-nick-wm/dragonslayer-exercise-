@@ -3,7 +3,7 @@ var youHit = Math.floor(Math.random() * 2);
 var damageThisRound = Math.floor(Math.random() * 5 + 1);
 var totalDamage= 0;
 var weapon = alert("What weapon will you choose");
-var choice = prompt("Magic wand, the One Ring, lightsaber, or stick");
+var choice = prompt("Magic wand, the One Ring, or lightsaber");
 while(slaying) {
     if (youHit) {
         console.log("You hit");
@@ -19,3 +19,4 @@ while(slaying) {
     }
     slaying = false;
 }
+
